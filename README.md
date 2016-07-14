@@ -1,8 +1,16 @@
 # Work in progress
 
-To build:
+Set up your vagrant machine:
 
 ```
+vagrant up
+vagrant ssh
+```
+
+Once inside the machine, to build, run:
+
+```
+cd wip
 mkdir build
 cd build
 cmake ..
